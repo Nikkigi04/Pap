@@ -21,10 +21,19 @@
             color: #ffffff;
             font-size: 1.1rem;
             margin-right: 1rem;
+            position: relative; /* Adicionado para posicionamento do ícone */
+            display: inline-block; /* Para alinhar corretamente o ícone */
         }
-        .nav-link:hover {
-            color: #F5F5F5; /* Branco */
-            text-decoration: underline;
+        .nav-link::after {
+            content: "\25BE"; /* Código Unicode para seta para baixo */
+            font-size: 0.7em; /* Tamanho do ícone */
+            margin-left: 5px; /* Espaço entre o texto e o ícone */
+            position: absolute; /* Posicionamento absoluto para o ícone */
+            top: 50%; /* Ajuste vertical para centralizar */
+            transform: translateY(-50%); /* Ajuste vertical para centralizar */
+        }
+        .nav-link:hover::after {
+            color: #F5F5F5; /* Cor do ícone ao passar o mouse */
         }
         .navbar-toggler {
             border-color: #ffffff;
@@ -45,33 +54,6 @@
             background-color: #6B8E23;
             color: #F5F5F5;
         }
-        .carousel-item img {
-            max-height: 500px; /* Altura máxima para as imagens */
-            width: 100%; /* Garante que a largura se ajuste automaticamente */
-            object-fit: contain; /* Ajusta a imagem para caber no container mantendo a proporção */
-        }
-        /* Estilo para o footer */
-        footer {
-            background-color: #8FBC8F; /* Verde tipo Oliveira */
-            color: #ffffff; /* Texto branco */
-            padding: 30px 0;
-        }
-
-        footer a {
-            color: #ffffff; /* Links no footer brancos */
-        }
-
-        footer a:hover {
-            color: #F5F5F5; /* Cor do link mais clara ao passar o mouse */
-        }
-
-        .carousel-container {
-            border: 2px solid rgb(185, 122, 28); /* Cor da moldura dourada */
-            padding: 10px; /* Espaçamento interno entre o carrossel e a moldura */
-            border-radius: 10px; /* Bordas arredondadas da moldura */
-            background-color: #f0bc6d; /* Cor de fundo da moldura */
-        }
-        
     </style>
 </head>
 <body>
