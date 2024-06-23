@@ -1,0 +1,46 @@
+
+        body {
+            background-color: #ffffff;
+        }
+        .navbar {
+            background-color: #8FBC8F; /* Verde tipo Oliveira */
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .nav-link {
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-right: 1rem;
+        }
+        .nav-link:hover {
+            color: #F5F5F5; /* Branco */
+            text-decoration: underline;
+        }
+        .navbar-toggler {
+            border-color: #ffffff;
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28%255, %255, %255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+        .navbar-nav .nav-item {
+            margin-left: 10px;
+        }
+        .dropdown-menu {
+            background-color: #8FBC8F; /* Verde tipo Oliveira */
+        }
+        .dropdown-item {
+            color: #ffffff;
+        }
+        .dropdown-item:hover {
+            background-color: #6B8E23;
+            color: #F5F5F5;
+        }
+        .carousel-item img {
+            max-height: 500px; /* Altura máxima para as imagens */
+            width: 100%; /* Garante que a largura se ajuste automaticamente */
+            object-fit: cover; /* Ajusta a imagem para cobrir o container mantendo a proporção */
+        }
+    
