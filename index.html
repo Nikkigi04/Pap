@@ -77,10 +77,11 @@
             position: relative;
             overflow: hidden;
             margin-top: 50px;
+            text-align: left; /* Alinha o texto à esquerda */
         }
         .animation-scene {
-            background-color: #f0f0f0;
-            border: 2px solid #ccc;
+            background-color: #F0F8FF; /* Azul claro */
+            border: 2px solid #4682B4; /* Azul-escuro */
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 20px;
@@ -96,10 +97,12 @@
         .animation-text h3 {
             font-size: 1.5rem;
             margin-bottom: 10px;
+            color: #4682B4; /* Azul-escuro */
         }
         .animation-text p {
             font-size: 1.1rem;
-            line-height: 1.6;
+            line-height: 1.5; /* Espaçamento entre as linhas */
+            color: #333; /* Cor do texto */
         }
     </style>
 </head>
@@ -133,20 +136,35 @@
     </header>
 
     <main class="container mt-4">
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="animation-container">
+                    <div class="animation-scene">
+                        <div class="animation-text">
+                            <h3>Bem-vindo(a), ao site para Guia de Confecção de Óleo corporal caseiro e Protocolo de Massagem</h3>
+                            <p>Descubra o poder do óleo corporal de canela e coco para massagem. Neste site, busquei tornar a aromaterapia e a massagem acessíveis a todos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+        
+        <!-- Carrossel no centro da página -->
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="carousel-container">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-width: 400px; margin: 0 auto;">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="imagem1.jpg" alt="First slide" style="max-height: 600px;">
+                                <img class="d-block w-100" src="imagem1.jpg" alt="First slide" style="max-height: 300px;">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="imagem2.jpg" alt="Second slide" style="max-height: 600px;">
+                                <img class="d-block w-100" src="imagem2.jpg" alt="Second slide" style="max-height: 300px;">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -163,23 +181,13 @@
         </div>
 
         <!-- Elementos Animados -->
-        <div class="row mt-5">
-            <div class="col-md-4">
-                <div class="animation-container">
-                    <div class="animation-scene">
-                        <div class="animation-text">
-                            <h3>Bem-vindo ao Mundo dos Óleos Essenciais</h3>
-                            <p>Descubra o poder do óleo corporal de canela e coco para massagem. Em nosso site, buscamos tornar a aromaterapia e a massagem acessíveis a todos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="animation-container">
                     <div class="animation-scene">
                         <div class="animation-text">
                             <h3>O que são Óleos Essenciais?</h3>
-                            <p>Os óleos essenciais são substâncias líquidas concentradas extraídas de plantas, conhecidos por suas propriedades aromáticas e terapêuticas. Utilizados na aromaterapia, cuidados com a pele, massagens, saúde, beleza, cosmética e limpeza, cada óleo essencial possui propriedades únicas.</p>
+                            <p>Os óleos essenciais são substâncias líquidas concentradas extraídas de plantas, conhecidas por suas propriedades aromáticas e terapêuticas. Utilizados na aromaterapia, cuidados com a pele, massagens, saúde, beleza, cosmética e limpeza, cada óleo essencial possui propriedades únicas.</p>
                         </div>
                     </div>
                 </div>
