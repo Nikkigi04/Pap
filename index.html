@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #fffacd; /* Amarelo suave */
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333; /* Cor do texto */
         }
         .navbar {
-            background-color: #8FBC8F; /* Verde tipo Oliveira */
+            background-color: #90EE90; /* Verde claro */
         }
         .navbar-brand {
             font-size: 1.5rem;
@@ -34,7 +35,7 @@
             transform: translateY(-50%); /* Ajuste vertical para centralizar */
         }
         .nav-link:hover::after {
-            color: #F5F5F5; /* Cor do ícone ao passar o mouse */
+            color: #ffffff; /* Cor do ícone ao passar o mouse */
         }
         .navbar-toggler {
             border-color: #ffffff;
@@ -46,18 +47,18 @@
             margin-left: 10px;
         }
         .dropdown-menu {
-            background-color: #8FBC8F; /* Verde tipo Oliveira */
+            background-color: #90EE90; /* Verde claro */
         }
         .dropdown-item {
             color: #ffffff;
         }
         .dropdown-item:hover {
             background-color: #6B8E23;
-            color: #F5F5F5;
+            color: #ffffff;
         }
         .footer {
-            background-color: #8FBC8F;
-            color: #F5F5F5;
+            background-color: #90EE90; /* Verde claro */
+            color: #ffffff;
         }
 
         /* Estilos adicionais */
@@ -80,7 +81,7 @@
             text-align: left; /* Alinha o texto à esquerda */
         }
         .animation-scene {
-            background-color: #F0F8FF; /* Azul claro */
+            background-color: #f0f8ff; /* Azul claro */
             border: 2px solid #4682B4; /* Azul-escuro */
             border-radius: 10px;
             padding: 20px;
@@ -136,73 +137,64 @@
     </header>
 
     <main class="container mt-4">
-
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="animation-container">
-                    <div class="animation-scene">
-                        <div class="animation-text">
-                            <h3>Bem-vindo(a), ao site para Guia de Confecção de Óleo corporal caseiro e Protocolo de Massagem</h3>
-                            <p>Descubra o poder do óleo corporal de canela e coco para massagem. Neste site, busquei tornar a aromaterapia e a massagem acessíveis a todos.</p>
-                        </div>
+        <!-- Seção de boas-vindas -->
+        <section class="row justify-content-center">
+            <div class="col-md-10 text-center">
+                <h2 class="section-title mb-4">Bem-vindo(a) ao Guia de Óleos Essenciais</h2>
+                <p class="lead">Explore o poder dos óleos essenciais para aromaterapia, cuidados com a pele e bem-estar geral. Descubra receitas de óleos corporais caseiros e técnicas de massagem.</p>
+            </div>
+        </section>
+    
+  
+        <!-- Seção de benefícios dos óleos essenciais -->
+        <section class="row mt-5">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                       
+                        <h3 class="card-title ">Benefícios dos Óleos Essenciais</h3>
+                        <img class="img-fluid" src="frascos.jpg" alt="Segunda Imagem">
+                        <p class="card-text">Descubra como os óleos essenciais podem melhorar a saúde e o bem-estar, desde propriedades terapêuticas até o uso em aromaterapia e cuidados com a pele.</p>
                     </div>
                 </div>
-            </div>          
-        </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <!-- Segunda Imagem -->
+                        
+                        <h3 class="card-title">Receitas de Óleos Corporais</h3>
+                        <img class="img-fluid" src="imagem2.jpg" alt="Segunda Imagem">
+                        <br><br>
+                        <p class="card-text">Aprenda a fazer óleos corporais naturais e caseiros com ingredientes como canela, coco e outros óleos essenciais, ideais para massagens e cuidados com a pele.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
         
-        <!-- Carrossel no centro da página -->
-        <div class="row justify-content-center">
+    
+        <!-- Seção de como fazer -->
+        <section class="row mt-5 justify-content-center">
             <div class="col-md-8">
-                <div class="carousel-container">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-width: 400px; margin: 0 auto;">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="imagem1.jpg" alt="First slide" style="max-height: 300px;">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="imagem2.jpg" alt="Second slide" style="max-height: 300px;">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h3 class="card-title">Como Fazer seu Próprio Óleo Essencial</h3>
+                        <img class="img-fluid" src="imagemfixe.jpg" alt="Segunda Imagem">
+                        <p class="card-text">Explore nosso guia passo a passo para criar seus próprios óleos essenciais em casa, utilizando métodos simples e ingredientes naturais.</p>
+                        <a href="como-fazer.html" class="btn btn-primary">Ver Mais</a>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Elementos Animados -->
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <div class="animation-container">
-                    <div class="animation-scene">
-                        <div class="animation-text">
-                            <h3>O que são Óleos Essenciais?</h3>
-                            <p>Os óleos essenciais são substâncias líquidas concentradas extraídas de plantas, conhecidas por suas propriedades aromáticas e terapêuticas. Utilizados na aromaterapia, cuidados com a pele, massagens, saúde, beleza, cosmética e limpeza, cada óleo essencial possui propriedades únicas.</p>
-                        </div>
-                    </div>
-                </div>
+        </section>
+    
+        <!-- Sobre -->
+        <section class="row mt-5">
+            <div class="col-md-12 text-center">
+                <h2 class="section-title mb-4">Sobre Nós</h2>
+                <p class="lead">Somos apaixonados por óleos essenciais e aromaterapia. Nosso objetivo é compartilhar conhecimento sobre os benefícios dos óleos naturais para uma vida mais saudável e equilibrada.</p>
             </div>
-            <div class="col-md-4">
-                <div class="animation-container">
-                    <div class="animation-scene">
-                        <div class="animation-text">
-                            <h3>Abordagem</h3>
-                            <p>Explore nossos recursos para aprender a fazer seu próprio óleo essencial de canela e descubra como uma massagem caseira pode transformar seu bem-estar.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
 
     <footer class="footer mt-5">
